@@ -1,0 +1,161 @@
+@media screen and (max-width: 1050px) {
+	.top-bar {
+		gap: 0.5rem !important;
+	}
+
+	.top-bar a {
+		color: var(--dark);
+		border-bottom: none;
+		font-size: 0.8rem !important;
+		cursor: default;
+	}
+
+	.top-bar img {
+		width: 15px;
+		height: 15px;
+	}
+
+	nav {
+		margin-bottom: 2rem;
+	}
+
+	nav ul {
+		direction: rtl;
+		margin-top: 2rem !important;
+		padding: 0 !important;
+		gap: 1rem;
+	}
+
+	.navbar-toggler-icon {
+		scale: 80%;
+	}
+
+	.navbar-toggler:focus {
+		border: none !important;
+	}
+
+	.product {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.product img {
+		padding: 0 !important;
+		margin-bottom: 30px;
+	}
+
+	.prodict .container {
+		padding: 0;
+	}
+
+	.hotline {
+		margin-top: 2rem !important;
+	}
+
+	.product-item {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100% !important;
+	}
+
+
+}
+
+@media (max-width: 600px) {
+
+
+	body {
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+		overflow-x: hidden !important;
+	}
+
+	header {
+		margin-top: 2rem;
+	}
+
+	header img {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	footer+div {
+		flex-direction: column;
+	}
+
+	#logo {
+		width: 200% !important;
+	}
+
+	.footer-logos {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.footer-logos imag {
+		width: 30% !important;
+	}
+
+	.footer-text {
+		flex-direction: column !important;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	.footer-text ul {
+		justify-content: center;
+	}
+
+	.footer-text p {
+		text-align: center;
+	}
+
+	.product-item {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100% !important;
+	}
+
+	.modal ul {
+		margin: 0 !important;
+		font-size: 1rem;
+		padding: 0 !important;
+		padding-right: 10px !important;
+	}
+
+	.product .container {
+		width: 95%;
+	}
+
+
+
+	header {
+		margin-bottom: 5rem;
+	}
+
+	button i {
+		display: none !important;
+	}
+
+	.button-effet div {
+		display: flex !important;
+		justify-content: center !important;
+	}
+
+	.carousel-indicators {
+		display: none !important;
+	}
+
+	.product-content {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+
+	.hero-content {
+		font-size: 1rem;
+	}
+}

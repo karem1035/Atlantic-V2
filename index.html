@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assests/images/logos/favicon.ico" />
+    <link rel="stylesheet" href="assests/css/all.min.css" />
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <link rel="stylesheet" href="assests/css/media.css" />
+    <title>Atlantic</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- TOP BAR -->
+    <div
+      class="top-bar bg-body-tertiary py-1 d-flex justify-content-center align-c"
+    >
+      <img src="assests/images/logos/france-icon.png" alt="" />
+      <a href="#" class="fs-4 text">
+        <span class="me-2">1968</span>علامة فرنسية منذ عام</a
+      >
+    </div>
+    <!-- NAV BAR -->
+    <nav
+      id="navbar"
+      class="navbar bg-body-tertiary navbar-expand-lg bg-body sticky-top shadow-sm align-items-center container-fluid"
+    >
+      <div class="container">
+        <a class="navbar-brand col-3" href="#hero">
+          <img
+            id="logo"
+            src="assests/images/logos/red logo.svg"
+            alt="atlantic logo"
+            width="100%"
+          />
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item first-nav-item">
+              <a class="nav-link" href="#products">منتجاتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO IMAGE -->
+    <header class="container hero position-relative" id="hero">
+      <div class="hero-img position-relative">
+        <img class="w-100" src="assests/images/hero.jpg" alt="..." />
+      </div>
+      <div class="hero-content" dir="rtl">
+        <h1>عن أتلانتيك</h1>
+        <p>
+          شركة فرنسية عالمية ذات خبرة تمتد لأكثر من 50 عام متخصصة في تصنيع
+          سخانات المياه الكهربائية بشكلٍ أساسي، وفقًا لأحدث معايير البيئة
+          الأوروبية، والتقنيات التكنولوچية، لتستحق لقب "متخصصون في تكنولوچيا
+          السخان" عن كسب.
+        </p>
+      </div>
+    </header>
+    <!-- SLIDER -->
+    <div class="container-lg slider mb-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="assests/images/slider/slider-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="assests/images/slider/slider-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="assests/images/slider/slider-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container"></div>
+    </div>
+
+    <!-- PRODUCTS -->
+
+    <section class="fs-5">
+      <p
+        class="text-center fw-bolder fs-1 mb-0 p mt-5 pt-5 text-secondary"
+        id="products"
+      >
+        منتجات <span class="text-danger"> أتلانتيك </span>
+      </p>
+      <!-- PRODUCT 1 -->
+      <div
+        class="product py-m-5 pt-5 border-bottom border-danger"
+        dir="rtl"
+        id="vertigo"
+      >
+        <div class="container py-5">
+          <div
+            class="row g-5 align-items-center justify-content-center mx-auto product-item"
+          >
+            <div class="col-md-5 order-sm-last order-md-first product-content">
+              <h2 class="fw-bold py-1 border-4 border-danger" dir="rtl">
+                سخان Vertigo
+              </h2>
+              <ul class="py-3 px-3">
+                <li
+                  class="text-secondary list-group-item-secondary mb-3"
+                  style="list-style: none"
+                >
+                  الموديل
+                </li>
+                <li class="py-2">يحتوى على 2 تانك داخلي لعملية تسخين أسرع.</li>
+                <li class="py-2">
+                  تقنية O’Pro التي تختص بها أتلانتيك لمقاومة الصدأ وضمان عمر
+                  أطول للسخان.
+                </li>
+
+                <li class="py-2">شاشة رقمية لتحكم أفضل.</li>
+              </ul>
+              <p class="py-3" dir="rtl">
+                متوفر بسعات (25، 40) لتر، وقريبًا 65 لتر، و80 لتر.
+              </p>
+
+              <!-- #region button and modal -->
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                class="button-effect"
+                data-bs-target="#firstproductmodal"
+              >
+                <div>
+                  المزيد
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="firstproductmodal"
+                tabindex="-1"
+                aria-labelledby="firstproductmodalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-transparent">
+                    <div class="modal-body bg-white">
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                      <h3 class="modal-title text-center fw-bolder mb-5">
+                        سخان فورتيجو
+                      </h3>
+                      <div class="row g-5 justify-content-center">
+                        <div class="col-md-9">
+                          <div class="d-flex justify-content-center gap-2">
+                            <img
+                              class="w-50"
+                              src="assests/images/vertigo-1.jpg"
+                              alt="product name"
+                            />
+                            <img
+                              class="w-50"
+                              src="assests/images/vertigo-2.jpg"
+                              alt="product name"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-9">
+                          <ul dir="rtl" class="text-dark">
+                            <li>
+                              أفضل تقنيات التحكم في تسخين المياه وفقًا لطبيعة
+                              لاحتياج المطلوب لتوفير أكبر قدر من الطاقة.
+                            </li>
+                            <li>سرعة تسخين مضاعفة X2.</li>
+                            <li>
+                              تصميم فريد وعصري يتيح إمكانية تركيبه بشكل أفقي أو
+                              رأسي توفيرًا للمساحات، وليناسب المساحات الضيقة.
+                            </li>
+                            <li>جيل جديد من جودة الماس في الإيناميلد.</li>
+                            <li>
+                              أحدث التقنيات التكنولوجية لتجربة أكثر سهولة وراحة.
+                            </li>
+                            <li>
+                              عزل فوم عالي الكثافة لعدم هدر الطاقة الحرارية
+                              وتوفير الكهرباء.
+                            </li>
+                            <li>
+                              متوفر بسعات (25، 40) لتر، وقريبًا 65 لتر، و80 لتر.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-lg px-5 py-2 me-3 mt-3 btn-danger rounded-0"
+                        data-bs-dismiss="modal"
+                      >
+                        إغلق
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- #endregion -->
+            </div>
+            <div class="col-md-5 order-sm-first order-md-last">
+              <div class="image-scale">
+                <img
+                  class="w-100"
+                  src="assests/images/vertigo.jpg"
+                  alt="product name"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PRODUCT 2 -->
+      <div class="product py-5 border-bottom border-danger" id="opro-turbo">
+        <div class="container py-5">
+          <div
+            class="row g-5 align-items-center justify-content-center product-item mx-auto"
+          >
+            <div
+              class="col-md-5 m-md-5 order-sm-last order-md-first product-content"
+              dir="rtl"
+            >
+              <h2 class="fw-bold py-1">سخان O’Pro Turbo</h2>
+
+              <ul class="py-3 px-3">
+                <li
+                  class="text-secondary list-group-item-secondary mb-3"
+                  style="list-style: none"
+                >
+                  الموديل
+                </li>
+                <li class="py-2">
+                  تقنية O’Pro التي تختص بها أتلانتيك لمقاومة الصدأ وضمان عمر
+                  أطول للسخان.
+                </li>
+                <li class="py-2">سرعة تسخين مضاعفة X2.</li>
+                <li class="py-2">
+                  أفضل تقنيات التحكم في تسخين المياه وفقًا لطبيعة لاحتياج
+                  المطلوب لتوفير أكبر قدر من الطاقة.
+                </li>
+              </ul>
+              <p class="py-3">متوفر بسعة 50 لتر.</p>
+
+              <!-- #region button and modal -->
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                class="button-effect"
+                data-bs-target="#secondproductmodal"
+              >
+                المزيد
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="secondproductmodal"
+                tabindex="-1"
+                aria-labelledby="secondproductmodalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-transparent">
+                    <div class="modal-body bg-white">
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                      <h3 class="modal-title text-center fw-bolder mb-5">
+                        سخان O’Pro Turbo
+                      </h3>
+                      <div class="row g-5 justify-content-center">
+                        <div class="col-md-9">
+                          <div class="d-flex justify-content-center gap-2">
+                            <img
+                              class="w-50"
+                              src="assests/images/opro-terbo-2.jpg"
+                              alt="product name"
+                            />
+                            <img
+                              class="w-50"
+                              src="assests/images/opro-terbo-1.jpg"
+                              alt="product name"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-9">
+                          <ul dir="rtl" class="text-dark">
+                            <li>تصميم فريد وعصري من أتلانتيك.</li>
+                            <li>جيل جديد من جودة الماس في الإيناميلد.</li>
+                            <li>
+                              أحدث التقنيات التكنولوجية لتجربة أكثر سهولة وراحة.
+                            </li>
+                            <li>
+                              عزل فوم عالي الكثافة لعدم هدر الطاقة الحرارية
+                              وتوفير الكهرباء.
+                            </li>
+                            <li>متوفر بسعة 50 لتر.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-lg px-5 py-2 me-3 mt-3 btn-danger rounded-0"
+                        data-bs-dismiss="modal"
+                      >
+                        إغلق
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- #endregion -->
+            </div>
+            <div class="col-md-5 order-sm-first order-md-last">
+              <div class="image-scale">
+                <img
+                  class="w-100"
+                  src="assests/images/opro-terbo.jpg"
+                  alt="product name"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PRODUCT 3 -->
+      <div class="product py-5 border-bottom border-danger" dir="rtl" id="opro">
+        <div class="container py-5">
+          <div
+            class="row g-5 align-items-center justify-content-center product-item mx-auto"
+          >
+            <div class="col-md-5 order-sm-last order-md-first product-content">
+              <h2 class="fw-bold py-1" dir="rtl">سخان O’Pro</h2>
+              <ul class="py-3 px-3">
+                <li
+                  class="text-secondary list-group-item-secondary mb-3"
+                  style="list-style: none"
+                >
+                  الموديل
+                </li>
+                <li class="py-2">
+                  عزل داخلي من الفوم عالي الجودة خالي من الفقاعات لتقليل
+                  الانبعاثات الحرارية وتوفير الطاقة.
+                </li>
+                <li class="py-2">عنصر تسخين من النحاس وغلاف لمقياس الحرارة.</li>
+                <li class="py-2">
+                  ثرموستات أوروبي عالي الحساسية والجودة لعمر افترضي أطول.
+                </li>
+              </ul>
+              <p class="py-3">متوفر بسعات (15-30-40-50-80) لتر.</p>
+
+              <!-- #region button and modal -->
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                class="button-effect"
+                data-bs-target="#thirdproductmodal"
+              >
+                المزيد
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="thirdproductmodal"
+                tabindex="-1"
+                aria-labelledby="thirdproductmodalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-transparent">
+                    <div class="modal-body bg-white">
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                      <h3 class="modal-title text-center fw-bolder mb-5">
+                        سخان O’Pro
+                      </h3>
+                      <div class="row g-5 justify-content-center">
+                        <div class="col-md-9">
+                          <div class="d-flex justify-content-center gap-2">
+                            <img
+                              class="w-50"
+                              src="assests/images/opro-2.jpg"
+                              alt="product name"
+                            />
+                            <img
+                              class="w-50"
+                              src="assests/images/opro-1.jpg"
+                              alt="product name"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-9">
+                          <ul dir="rtl" class="text-dark">
+                            <li>
+                              تقنية O’Pro التي تختص بها أتلانتيك لمقاومة الصدأ
+                              وضمان عمر أطول للسخان.
+                            </li>
+                            <li>
+                              أنبوب إخراج من الفولاذ المقاوم للصدأ لضمان أطول
+                              عمر افتراضي.
+                            </li>
+                            <li>مشتت حديث محسن لتوزيع الهواء داخليًا.</li>
+                            <li>
+                              عامود ماغنسيوم ذو جودة عالية مقاوم للصدأ والتآكل.
+                            </li>
+                            <li>إيناميلد عالي الجودة والكفاءة (جودة الماس).</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-lg px-5 py-2 me-3 mt-3 btn-danger rounded-0"
+                        data-bs-dismiss="modal"
+                      >
+                        إغلق
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- #endregion -->
+            </div>
+            <div class="col-md-5 order-sm-first order-md-last">
+              <div class="image-scale">
+                <img
+                  class="w-100"
+                  src="assests/images/opro.jpg"
+                  alt="product name"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PRODUCT 4 -->
+      <div class="product py-5 border-bottom border-danger" dir="ltr" id="ego">
+        <div class="container py-5">
+          <div
+            class="row g-5 align-items-center justify-content-center product-item mx-auto"
+          >
+            <div
+              class="col-md-5 m-md-5 order-sm-last order-md-first product-content"
+              dir="rtl"
+            >
+              <h2 class="fw-bold py-1" dir="rtl">سخان Ego</h2>
+              <ul class="py-3 px-3">
+                <li
+                  class="text-secondary list-group-item-secondary mb-3"
+                  style="list-style: none"
+                >
+                  الموديل
+                </li>
+                <li class="py-2">عنصر تسخين من النحاس وغلاف لمقياس الحرارة.</li>
+                <li class="py-2">
+                  ثرموستات أوروبي عالي الحساسية والجودة لعمر افترضي أطول.
+                </li>
+                <li class="py-2">
+                  أغلب مكونات السخان فرنسية ذات عمر افتراضي أطول.
+                </li>
+              </ul>
+              <p class="py-3" dir="rtl">متوفر بسعتي(30-50) لتر.</p>
+
+              <!-- #region button and modal -->
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                class="button-effect"
+                data-bs-target="#fourthproductmodal"
+              >
+                المزيد
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="fourthproductmodal"
+                tabindex="-1"
+                aria-labelledby="fourthproductmodalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-transparent">
+                    <div class="modal-body bg-white">
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                      <h3 class="modal-title text-center fw-bolder mb-5">
+                        سخان Ego
+                      </h3>
+                      <div class="row g-5 justify-content-center">
+                        <div class="col-md-9">
+                          <div class="d-flex justify-content-center gap-2">
+                            <img
+                              class="w-50"
+                              src="assests/images/ego-1.jpg"
+                              alt="product name"
+                            />
+                            <img
+                              class="w-50"
+                              src="assests/images/ego-2.jpg"
+                              alt="product name"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-9">
+                          <ul dir="rtl" class="text-dark">
+                            <li>
+                              أنبوب إخراج من الفولاذ المقاوم للصدأ لضمان أطول
+                              عمر افتراضي.
+                            </li>
+                            <li>مشتت حديث محسن لتوزيع الهواء داخليًا.</li>
+                            <li>
+                              عامود ماغنسيوم ذو جودة عالية مقاوم للصدأ والتآكل.
+                            </li>
+                            <li>إيناميلد عالي الجودة والكفاءة (جودة الماس).</li>
+                            <li>
+                              عزل داخلي من الفوم عالي الجودة خالي من الفقاعات
+                              لتقليل الانبعاثات الحرارية وتوفير الطاقة.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-lg px-5 py-2 me-3 mt-3 btn-danger rounded-0"
+                        data-bs-dismiss="modal"
+                      >
+                        إغلق
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- #endregion -->
+            </div>
+            <div class="col-md-5 order-sm-first order-md-last">
+              <div class="image-scale">
+                <img
+                  class="w-100"
+                  src="assests/images/ego.jpg"
+                  alt="product name"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PRODUCT 5 -->
+      <div class="product py-5" dir="rtl">
+        <div class="container py-5">
+          <div
+            class="row g-5 align-items-center justify-content-center product-item mx-auto"
+            id="consept"
+          >
+            <div class="col-md-5 order-sm-last order-md-first product-content">
+              <h2 class="fw-bold py-1" dir="rtl">سخان Consept</h2>
+              <ul class="py-3 px-3">
+                <li
+                  class="text-secondary list-group-item-secondary mb-3"
+                  style="list-style: none"
+                >
+                  الموديل
+                </li>
+                <li class="py-2">
+                  تانك داخلي من الكريستال ومصنوع من الزيكون المقاوم للصدأ لعمر
+                  افتراضي أطول.
+                </li>
+                <li class="py-2">تصميم عصري وأنيق يناسب الأذواق الرفيعة.</li>
+                <li class="py-2">
+                  ثرموستات أوروبي عالي الحساسية والجودة لعمر افترضي أطول.
+                </li>
+              </ul>
+              <p class="py-3" dir="rtl">متوفر بسعتي(30-50) لتر.</p>
+
+              <!-- #region button and modal -->
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#fifthproductmodal"
+                class="button-effect"
+              >
+                المزيد
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="fifthproductmodal"
+                tabindex="-1"
+                aria-labelledby="fifthproductmodalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content bg-transparent">
+                    <div class="modal-body bg-white">
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                      <h3 class="modal-title text-center fw-bolder mb-5">
+                        سخان Consept
+                      </h3>
+                      <div class="row g-5 justify-content-center">
+                        <div class="col-md-9">
+                          <div class="d-flex justify-content-center gap-2">
+                            <img
+                              class="w-50"
+                              src="assests/images/concept-1.jpg"
+                              alt="product name"
+                            />
+                            <img
+                              class="w-50"
+                              src="assests/images/concept-2.jpg"
+                              alt="product name"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-9">
+                          <ul dir="rtl" class="text-dark">
+                            <li>
+                              أنبوب إخراج من الفولاذ المقاوم للصدأ لضمان أطول
+                              عمر افتراضي.
+                            </li>
+                            <li>مشتت حديث محسن لتوزيع الهواء داخليًا.</li>
+                            <li>
+                              عامود ماغنسيوم ذو جودة عالية مقاوم للصدأ والتآكل.
+                            </li>
+                            <li>إيناميلد عالي الجودة والكفاءة (جودة الماس).</li>
+                            <li>
+                              عزل داخلي من الفوم عالي الجودة خالي من الفقاعات
+                              لتقليل الانبعاثات الحرارية وتوفير الطاقة.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-lg px-5 py-2 me-3 mt-3 btn-danger rounded-0"
+                        data-bs-dismiss="modal"
+                      >
+                        إغلق
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- #endregion -->
+            </div>
+            <div class="col-md-5 order-sm-first order-md-last">
+              <div class="image-scale">
+                <img
+                  class="w-100"
+                  src="assests/images/concept.jpg"
+                  alt="product name"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <div class="form mt-5 mx-auto" dir="rtl" id="contact">
+      <form class="container my-5 col-lg-6 fs-4">
+        <label for="">
+          <p class="h2 fs-2 fw-bold mb-4">تواصل معنا</p>
+        </label>
+        <div class="d-grid">
+          <div class="row">
+            <div class="form-group col-lg-6 mb-3">
+              <label for="lastName">الأسم الأول</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="lastName"
+              />
+            </div>
+            <div class="form-group col-lg-6 mb-3">
+              <label for="lastName">الأسم الثاني</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="lastName"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-12 mb-3">
+          <label for="email">الإيميل الشخصي</label>
+          <input type="email" class="form-control form-control-lg" id="email" />
+        </div>
+
+        <div class="form-group mb-3 col-md-12">
+          <label for="message">الرسالة</label>
+          <textarea
+            class="form-control form-control-lg mb-4"
+            id="message"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <div class="form-group d-grid">
+          <button type="submit" class="btn btn-lg btn-primary col-xl-3">
+            أرسل لنا
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="py-5">
+      <div class="container">
+        <div class="footer-logos pb-5 mb-5 border-bottom">
+          <img
+            src="assests/images/white logo.svg "
+            class="logo col-md-2"
+            alt=""
+          />
+          <img
+            src="assests/images/hotline.png"
+            class="logo col-2 col-md-2"
+            alt=""
+          />
+        </div>
+        <div class="mx-5 footer-text" dir="rtl">
+          <div class="col-lg-2" dir="rtl">
+            <p class="fs-5 fw-bold">الموقع حسب البلد</p>
+            <ul class="countries">
+              <li class="pb-2">
+                <a href="https://atlantic-comfort.com/" target="_blank"
+                  >عالمي</a
+                >
+              </li>
+              <li class="pb-2">
+                <a href="https://atlantic-comfort.ae/" target="_blank">دبي </a>
+              </li>
+              <li class="pb-2">
+                <a href="https://www.atlantic.be/belgie" target="_blank"
+                  >بلجيكا</a
+                >
+              </li>
+              <li class="pb-2">
+                <a href="https://atlantic-comfort.it/" target="_blank"
+                  >إيطاليا</a
+                >
+              </li>
+              <li class="pb-2">
+                <a href="https://www.atlantic.fr/" target="_blank">فرنسا</a>
+              </li>
+              <li class="pb-2">
+                <a href="https://groupe-atlantic.pl/" target="_blank">بولندا</a>
+              </li>
+              <li class="pb-2">
+                <a href="https://atlantic.ua/" target="_blank">أوكرانيا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2" dir="rtl">
+            <p class="fs-5 fw-bold">المنتجات</p>
+            <ul>
+              <li class="pb-2"><a href="#vertigo">Vertigo</a></li>
+              <li class="pb-2"><a href="#opro-turbo">O’Pro Turbo</a></li>
+              <li class="pb-2"><a href="#opro">O'pro</a></li>
+              <li class="pb-2"><a href="#ego">Ego</a></li>
+              <li class="pb-2"><a href="#consept">Consept</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2" dir="rtl">
+            <p class="fs-5 fw-bold">تواصل معنا</p>
+            <ul class="social">
+              <li class="pb-2">
+                <a
+                  href="https://www.facebook.com/waterheateratlantic"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="pb-2">
+                <a href="https://www.youtube.com/@atlanticegypt" target="_blank"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+              <li class="pb-2">
+                <a
+                  href="https://www.instagram.com/atlantic.egypt/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="container-fluid p-2 d-flex align-items-center justify-content-center bottom-bar"
+    >
+      <p class="m-0 text-light">Powered by ريادة</p>
+    </div>
+    <script src="assests/script/bootstrap.bundle.min.js"></script>
+    <script src="assests/script/script.js"></script>
+  </body>
+</html>
