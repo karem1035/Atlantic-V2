@@ -58,11 +58,30 @@
 		width: 100% !important;
 	}
 
+	.hero {
+		flex-direction: column;
+	}
+
+	.hero img {
+		width: 100%;
+	}
+
+	.hero-content {
+		position: relative;
+		width: 100% !important;
+	}
 
 }
 
 @media (max-width: 600px) {
 
+	.w-25 {
+		width: 40% !important;
+	}
+
+	table {
+		font-size: 0.9rem !important;
+	}
 
 	body {
 		margin: 0 !important;
@@ -152,6 +171,7 @@
 	.product-content {
 		margin: 0 !important;
 		padding: 0 !important;
+		font-size: 1rem;
 	}
 
 
