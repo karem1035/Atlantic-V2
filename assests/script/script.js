@@ -49,3 +49,33 @@ function updateCarouselImages() {
 // Call the function on page load and resize
 window.addEventListener('load', updateCarouselImages);
 window.addEventListener('resize', updateCarouselImages);
+
+// Check if the screen width is 1050px or more
+if (window.innerWidth >= 1050) {
+  // Select all img elements
+  const image = document.querySelector('.hero-img img.w-100');
+  // Add event listeners to each img element
+  images.forEach((image) => {
+    image.addEventListener('mouseover', (event) => {
+      // Add the class to the hovered img element
+      event.target.classList.add('example');
+      $('.example').extm({
+        zoomElement: false,
+        imageSrc: $(this).attr('src'),
+        squareOverlay: false,
+        position: 'right',
+        rightPad: 0,
+        lazy: false,
+        zoomLevel: 2,
+        zoomSize: false,
+        loadingText: false,
+        loadingImage: false,
+      });
+    });
+
+    image.addEventListener('mouseout', (event) => {
+      // Remove the class from the unhovered img element
+      event.target.classList.remove('example');
+    });
+  });
+}

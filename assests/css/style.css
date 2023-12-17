@@ -153,10 +153,6 @@ header {
 	font-size: 2rem;
 }
 
-.image-scale {
-	overflow: hidden !important;
-}
-
 
 .button-effect {
 	background-color: var(--blue);
@@ -187,11 +183,6 @@ header {
 
 .button-effect:hover {
 	background-color: var(--red);
-}
-
-
-.image-scale img {
-	transition: 0.2s;
 }
 
 
