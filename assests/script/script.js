@@ -11,9 +11,9 @@ function scrollFunction() {
     logo.style.width = '50%';
     topbar.style.display = 'none';
   } else {
-    navbar.style.padding = '10px 0 30px 0';
+    navbar.style.padding = '10px 0 20px 0';
     logo.style.width = '80%';
-    topbar.style.display = 'block'; // Adjust to show the top bar when scrolling up
+    topbar.style.display = 'block';
   }
 }
 
@@ -26,3 +26,26 @@ document.querySelectorAll('.navbar-nav a').forEach((navLink) => {
     document.querySelector('.navbar-toggler').click(); // Simulate a click on the toggle button
   });
 });
+
+// Change the images
+
+function updateCarouselImages() {
+  var carouselItems = document.querySelectorAll('.carousel-item');
+
+  carouselItems.forEach(function (item, index) {
+    var mobileImagePath = `assests/images/slider/slider-${index + 1}-mob.jpg`;
+    var largeImagePath = `assests/images/slider/slider-${index + 1}.jpg`;
+
+    var imageElement = item.querySelector('img');
+
+    if (window.innerWidth < 769) {
+      imageElement.src = mobileImagePath;
+    } else {
+      imageElement.src = largeImagePath;
+    }
+  });
+}
+
+// Call the function on page load and resize
+window.addEventListener('load', updateCarouselImages);
+window.addEventListener('resize', updateCarouselImages);
