@@ -30,7 +30,7 @@ document.querySelectorAll('.navbar-nav a').forEach((navLink) => {
 // Change the images
 
 function updateCarouselImages() {
-  var carouselItems = document.querySelectorAll('.carousel-item');
+  var carouselItems = document.querySelectorAll('#mainSlider .carousel-item');
 
   carouselItems.forEach(function (item, index) {
     var mobileImagePath = `assests/images/slider/slider-${index + 1}-mob.jpg`;

@@ -10,8 +10,6 @@
 		margin: 0.5rem;
 	}
 
-	nav ul li {}
-
 	/* Hero */
 
 	header {
@@ -115,8 +113,10 @@
 		gap: 2rem;
 	}
 
-	footer .row img {
-		width: 50% !important;
+
+
+	footer ul {
+		gap: 0.5rem;
 	}
 
 	/* BotBar */
@@ -158,6 +158,10 @@
 
 	.footer-logos img {
 		width: 40%;
+	}
+
+	footer .row img {
+		width: 50% !important;
 	}
 
 	/* BotBar */

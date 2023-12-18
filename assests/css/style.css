@@ -16,9 +16,6 @@ img {
 	--red: #d45a6a;
 }
 
-
-
-
 @font-face {
 	font-family: 'GE-SS-Two-Light';
 	src: url('../fonts/GE-SS-Two-Light.otf') format('opentype');
@@ -41,13 +38,9 @@ a {
 
 }
 
-
 .bold {
 	font-family: 'GE-SS-Two-Bold'
 }
-
-
-
 
 
 /* ---------------------------------- */
@@ -65,7 +58,6 @@ a {
 	font-size: 1rem !important;
 	cursor: default;
 }
-
 
 .top-bar:hover {
 	scale: 1.02;
@@ -90,7 +82,6 @@ nav button {
 	border: none !important;
 }
 
-
 nav ul {
 	display: flex;
 	margin: 0;
@@ -103,8 +94,6 @@ nav ul a {
 	font-size: 1.2rem !important;
 }
 
-
-
 /* HERO */
 
 header {
@@ -112,7 +101,6 @@ header {
 	display: flex;
 	align-items: end !important;
 }
-
 
 .hero-content {
 	width: 50%;
@@ -143,8 +131,6 @@ header {
 
 /* SLIDER */
 
-
-
 /* PRODUCTS */
 
 #products {
@@ -152,7 +138,6 @@ header {
 	color: var(--dark);
 	font-size: 2rem;
 }
-
 
 .button-effect {
 	background-color: var(--blue);
@@ -180,12 +165,9 @@ header {
 	left: 25%;
 }
 
-
 .button-effect:hover {
 	background-color: var(--red);
 }
-
-
 
 .modal ul li {
 	padding: 10px !important;
@@ -194,7 +176,6 @@ header {
 table td {
 	padding: 0.5em !important;
 }
-
 
 /* FORM */
 
@@ -251,20 +232,18 @@ footer .container {
 
 footer ul {
 	display: flex;
-	gap: 1rem;
 	flex-wrap: wrap;
+	gap: 1rem;
 	padding: 0;
 	list-style: none;
 }
 
 footer ul li {
-	transition: 0.2s;
-	color: #fff !important;
+	transition: 0.1s;
 }
 
 footer ul li:hover {
-	color: #fff !important;
-	scale: 1.1;
+	scale: 1.05;
 }
 
 .footer-logos {
@@ -273,13 +252,10 @@ footer ul li:hover {
 	align-items: center;
 }
 
-
 footer ul a {
 	color: #fff;
 	width: 10px;
 }
-
-
 
 footer .logo {
 	width: 15rem;
