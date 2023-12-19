@@ -67,6 +67,7 @@
 /* Small screens, laptops */
 @media only screen and (max-width: 769px) {
 
+
 	/* TopBar */
 	.top-bar:hover {
 		scale: 1;
@@ -93,12 +94,22 @@
 		width: 1rem;
 	}
 
+
 	/* Products */
-	.product-item {
-		display: flex;
-		flex-direction: column-reverse;
-		width: 100% !important;
+
+
+	.carousel-indicators {
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
 	}
+
+	.carousel-control-next,
+	.carousel-control-prev {
+		width: 30px;
+		height: 30px;
+	}
+
 
 	/* Form */
 
@@ -340,12 +351,10 @@
 		justify-content: center !important;
 	}
 
-	.carousel-indicators {
-		display: none !important;
-	}
 
 	.product-content {
 		margin: 0 !important;
+		margin-top: 5rem !important;
 		padding: 0 !important;
 		font-size: 1rem;
 	}

@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assests/css/style.css" />
     <link rel="stylesheet" href="assests/css/media.css" />
-    <script src="assests/script/extm.min.js"></script>
     <script src="assests/script/jquery-3.7.1.min.js"></script>
+    <script src="assests/script/extm.min.js"></script>
     <title>Atlantic</title>
   </head>
 
@@ -156,7 +156,7 @@
       </p>
       <!-- PRODUCT 1 -->
       <div
-        class="product py-m-5 pt-5 border-bottom border-danger"
+        class="product py-5 pt-5 border-bottom border-danger"
         dir="rtl"
         id="vertigo"
       >
@@ -399,22 +399,37 @@
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
+                  data-img-button="#imagebutton"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/vertigo-2.jpg')
+                      no-repeat center/cover;
+                  "
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-img-button="#imagebutton"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  style="
+                    background: url('assests/images/products/vertigo-1.jpg')
+                      no-repeat center/cover;
+                  "
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
                   aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/vertigo.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
               </div>
               <div class="carousel-inner">
@@ -441,18 +456,6 @@
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
                 class="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
@@ -464,10 +467,23 @@
                 ></span>
                 <span class="visually-hidden">Next</span>
               </button>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <br />
       <!-- PRODUCT 2 -->
       <div class="product py-5 border-bottom border-danger" id="opro-turbo">
         <div class="container py-5">
@@ -706,22 +722,37 @@
                 <button
                   type="button"
                   data-bs-target="#product2-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
                   aria-label="Slide 1"
+                  style="
+                    background: url('assests/images/products/opro-terbo-2.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
+                  data-img-button="#imagebutton"
                   data-bs-target="#product2-slider"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
+                  style="
+                    background: url('assests/images/products/opro-terbo-1.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product2-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/opro-terbo.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
               </div>
               <div class="carousel-inner">
@@ -781,7 +812,9 @@
           <div
             class="row g-5 align-items-center justify-content-center product-item mx-auto"
           >
-            <div class="col-md-5 order-sm-last order-md-first product-content">
+            <div
+              class="col-md-5 g-5 order-sm-last order-md-first product-content"
+            >
               <h2 class="fw-bold py-1" dir="rtl">سخان O’Pro</h2>
               <ul class="py-3 px-3">
                 <li class="py-2">
@@ -1023,22 +1056,37 @@
                 <button
                   type="button"
                   data-bs-target="#product3-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
                   aria-label="Slide 1"
+                  style="
+                    background: url('assests/images/products/opro-2.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product3-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
+                  style="
+                    background: url('assests/images/products/opro-1.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product3-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/opro.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
               </div>
               <div class="carousel-inner">
@@ -1339,22 +1387,37 @@
                 <button
                   type="button"
                   data-bs-target="#product4-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
                   aria-label="Slide 1"
+                  style="
+                    background: url('assests/images/products/ego.jpg') no-repeat
+                      center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product4-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
+                  style="
+                    background: url('assests/images/products/ego-1.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product4-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/ego-2.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
               </div>
               <div class="carousel-inner">
@@ -1653,22 +1716,37 @@
                 <button
                   type="button"
                   data-bs-target="#product5-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
                   aria-label="Slide 1"
+                  style="
+                    background: url('assests/images/products/concept.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product5-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
+                  style="
+                    background: url('assests/images/products/concept-1.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#product5-slider"
+                  data-img-button="#imagebutton"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
+                  style="
+                    background: url('assests/images/products/concept-2.jpg')
+                      no-repeat center/cover;
+                  "
                 ></button>
               </div>
               <div class="carousel-inner">
@@ -1916,5 +1994,7 @@
     </div>
     <script src="assests/script/bootstrap.bundle.min.js"></script>
     <script src="assests/script/script.js"></script>
+    <script src="assests/script/jquery-3.7.1.min.js"></script>
+    <script src="assests/script/extm.min.js"></script>
   </body>
 </html>
