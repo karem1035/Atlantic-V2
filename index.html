@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assests/images/logos/favicon.ico" />
     <link rel="stylesheet" href="assests/css/all.min.css" />
+    <link rel="stylesheet" href="assests/css/magnify.css" />
     <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assests/css/style.css" />
     <link rel="stylesheet" href="assests/css/media.css" />
@@ -436,21 +437,24 @@
                 <div class="carousel-item active">
                   <img
                     src="assests/images/products/vertigo.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/vertigo.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/vertigo-1.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/vertigo-1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/vertigo-2.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/vertigo-2.jpg"
                     alt="..."
                   />
                 </div>
@@ -759,21 +763,24 @@
                 <div class="carousel-item active">
                   <img
                     src="assests/images/products/opro-terbo.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro-terbo.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/opro-terbo-1.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro-terbo-1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/opro-terbo-2.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro-terbo-2.jpg"
                     alt="..."
                   />
                 </div>
@@ -1093,21 +1100,24 @@
                 <div class="carousel-item active">
                   <img
                     src="assests/images/products/opro.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/opro-1.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro-1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/opro-2.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/opro-2.jpg"
                     alt="..."
                   />
                 </div>
@@ -1424,21 +1434,24 @@
                 <div class="carousel-item active">
                   <img
                     src="assests/images/products/ego.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/ego.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/ego-1.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/ego-1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/ego-2.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/ego-2.jpg"
                     alt="..."
                   />
                 </div>
@@ -1753,21 +1766,24 @@
                 <div class="carousel-item active">
                   <img
                     src="assests/images/products/concept.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/concept.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/concept-1.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/concept-1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="assests/images/products/concept-2.jpg"
-                    class="d-block w-100"
+                    class="d-block w-100 zoom"
+                    data-magnify-src="assests/images/products/concept-2.jpg"
                     alt="..."
                   />
                 </div>
@@ -1995,6 +2011,17 @@
     <script src="assests/script/bootstrap.bundle.min.js"></script>
     <script src="assests/script/script.js"></script>
     <script src="assests/script/jquery-3.7.1.min.js"></script>
-    <script src="assests/script/extm.min.js"></script>
+    <script src="assests/script/jquery.magnify.js" charset="UTF-8"></script>
+    <script>
+      $(document).ready(function () {
+        if (window.innerWidth >= 1000) {
+          $(".zoom").magnify({
+            speed: 100,
+            magnifiedWidth: 700,
+            magnifiedHeight: 700,
+          });
+        }
+      });
+    </script>
   </body>
 </html>

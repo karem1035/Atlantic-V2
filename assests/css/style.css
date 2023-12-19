@@ -175,6 +175,10 @@ table td {
   padding: 0.5em !important;
 }
 
+.slider .carousel-indicators {
+  bottom: -15px !important;
+}
+
 .carousel-indicators [data-img-button] {
   transform: translateY(125px);
   height: 80px;
@@ -203,7 +207,11 @@ table td {
   top: calc(50% - 25px);
 }
 
-
+.slider .carousel-control-next,
+.slider .carousel-control-prev {
+  background-color: transparent;  
+  margin: 20px;
+}
 /* FORM */
 
 form .btn {

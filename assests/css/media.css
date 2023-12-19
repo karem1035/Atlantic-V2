@@ -111,6 +111,15 @@
 	}
 
 
+	.slider .carousel-indicators {
+		bottom: -18px !important;
+	}
+
+	.slider .carousel-control-next,
+	.slider .carousel-control-prev {
+		display: none;
+	}
+
 	/* Form */
 
 	form * {
