@@ -102,6 +102,9 @@
 		display: flex !important;
 		align-items: center;
 		justify-content: center;
+		width: 80% !important;
+		margin: auto;
+		margin-bottom: 2rem;
 	}
 
 	.carousel-control-next,
