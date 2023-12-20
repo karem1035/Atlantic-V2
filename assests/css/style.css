@@ -209,9 +209,14 @@ table td {
 
 .slider .carousel-control-next,
 .slider .carousel-control-prev {
-  background-color: transparent;  
+  background-color: transparent;
   margin: 20px;
 }
+
+.english-numbers {
+  unicode-bidi: plaintext !important;
+}
+
 /* FORM */
 
 form .btn {
