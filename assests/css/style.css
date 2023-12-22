@@ -317,6 +317,10 @@ footer .social a {
   flex: 1;
 }
 
+.footer-number img {
+  width: 80% !important;
+}
+
 .bottom-bar {
   color: #fff;
   font-size: 1rem;

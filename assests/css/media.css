@@ -295,6 +295,10 @@
 		width: 100% !important;
 	}
 
+	.footer-number img {
+		width: 95% !important;
+	}
+
 }
 
 @media (max-width: 600px) {
