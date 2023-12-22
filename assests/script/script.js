@@ -33,8 +33,8 @@ function updateCarouselImages() {
   var carouselItems = document.querySelectorAll('#mainSlider .carousel-item');
 
   carouselItems.forEach(function (item, index) {
-    var mobileImagePath = `assests/images/slider/slider-${index + 1}-mob.jpg`;
-    var largeImagePath = `assests/images/slider/slider-${index + 1}.jpg`;
+    var mobileImagePath = `assests/images/slider/slider-${index + 1}-mob.webp`;
+    var largeImagePath = `assests/images/slider/slider-${index + 1}.webp`;
 
     var imageElement = item.querySelector('img');
 
