@@ -175,6 +175,11 @@
 		width: 100% !important;
 	}
 
+	.product {
+		padding: 0 !important;
+		margin-top: 2rem !important;
+	}
+
 	/* Form */
 
 	/* Footer */
@@ -262,10 +267,7 @@
 		border: none !important;
 	}
 
-	.product {
-		margin: 0 !important;
-		padding: 0 !important;
-	}
+
 
 	.product img {
 		padding: 0 !important;
