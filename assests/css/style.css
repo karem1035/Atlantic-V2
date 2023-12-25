@@ -21,10 +21,7 @@ img {
   src: url("../fonts/GE-SS-Two-Light.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "GE-SS-Two-Bold";
-  src: url("../fonts/GE-SS-Two-Bold.otf") format("opentype");
-}
+
 
 body {
   font-size: 1.5rem !important;
@@ -131,7 +128,6 @@ header {
 /* PRODUCTS */
 
 #products {
-  font-family: "GE-SS-Two-Bold" !important;
   color: var(--dark);
   font-size: 2rem;
   padding-bottom: 20px;
