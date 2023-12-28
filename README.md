@@ -29,4 +29,9 @@ index.html
 │ └── bootstrap.bundle.min.js
 ├── index.html
 └── README.md
-# Atlantic-V2
+
+## Technology used
+
+- HTML/CSS/JS
+- Bootstrap
+- JQuery
