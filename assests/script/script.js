@@ -4,16 +4,13 @@ function scrollFunction() {
   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   var navbar = document.getElementById('navbar');
   var logo = document.getElementById('logo');
-  var topbar = document.getElementById('topbar');
 
   if (scrollTop >= 20) {
     navbar.style.padding = '20px 0';
     logo.style.width = '50%';
-    topbar.style.display = 'none';
   } else {
     navbar.style.padding = '10px 0 20px 0';
     logo.style.width = '80%';
-    topbar.style.display = 'block';
   }
 }
 
